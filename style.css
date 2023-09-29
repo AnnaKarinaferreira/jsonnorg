@@ -1,0 +1,160 @@
+body {
+    background-color: #EAECEE;
+}
+
+.Registrar {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 10px 10px 10px rgb(24, 22, 24);
+    font-family: 'Romanesque Serif', sans-serif;                                             
+}
+
+
+.login {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px rgb(24, 22, 24);
+    font-family: 'Romanesque Serif', sans-serif;                                            
+}
+
+.text1 {
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Romanesque Serif', sans-serif;
+                                                
+                                                
+}
+
+.subtext {
+    color: #000000;
+    font-size: 10px;
+    font-family: 'Romanesque Serif', sans-serif;
+                                                
+                                                
+}
+
+h1 {
+    font-size: 10px;
+    color: #000000;
+    font-family: 'Romanesque Serif', sans-serif;
+                                                
+}
+
+#login {
+    border: none;
+    border-radius: 7px;
+    margin-right: 5px;
+    background-color: #dcd2f1 box
+}
+
+#password {
+    border: none;
+    border-radius: 7px;
+    margin-right: 5px;
+    background-color: #dcd2f1;
+}
+#novoLogin {
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: #dcd2f1;
+}
+
+#novaSenha {
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: #dcd2f1;
+}
+
+#repSenha {
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: #dcd2f1;
+}
+
+.button {
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-color: #dcd2f1;
+
+}
+
+.button:before {
+    height: 0%;
+    width: 2px;
+}
+
+.button:after {
+    width: 0%;
+    height: 2px;
+}
+
+.button:hover:before {
+    height: 100%;
+}
+
+.button:hover:after {
+    width: 100%;
+}
+
+.button:hover {
+    background: transparent;
+}
+
+.button span:hover {
+    color: #ffffff;
+}
+
+.button span:before,
+.button span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #ffffff;
+
+    transition: all 0.3s ease;
+}
+
+.button span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.button span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.button span:hover:before {
+    height: 100%;
+}
+
+.button span:hover:after {
+    width: 100%;
+}
+
+.img{
+    size: 30px;
+    margin-top: 30px;
+    margin-right: 40vh;
+    width: 20vw;
+    position: absolute;
+    bottom: 0;
+    right: 4vw;
+}
